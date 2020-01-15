@@ -23,5 +23,5 @@ steps:
 - script: pip install robotframework robotframework-seleniumlibrary && npm install chromedriver
   displayName: 'Install dependencies'
 
-- script: "C:\Program Files\Python37\python.exe" -m robot.run --pythonpath C:\ProgramFiles\Python37\Lib\site-packages --suite TestAutomationPractice.Icoboi C:\TestAutomation\TestAutomationPractice
+- script: -m robot.run --pythonpath C:\Program Files\Python37\python.exe C:\ProgramFiles\Python37\Lib\site-packages --suite TestAutomationPractice.Icoboi C:\TestAutomation\TestAutomationPractice
   displayName: "Run Robot Scripts"
